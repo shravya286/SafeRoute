@@ -1,0 +1,57 @@
+/* Design Tokens for AbhayaSetu (SafeRoute Bridge) */
+:root {
+  /* Typography */
+  --font-family: 'Inter', 'Manrope', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  --font-heading: 'Manrope', 'Inter', sans-serif;
+
+  /* Line Height Tokens */
+  --leading-tight: 1.25;
+  --leading-snug: 1.35;
+  --leading-normal: 1.5;
+  --leading-relaxed: 1.65;
+
+  /* Tracking (Letter Spacing) */
+  --tracking-tight: -0.015em;
+  --tracking-normal: 0;
+  --tracking-wide: 0.04em;
+
+  /* Strict Color Tokens */
+  --bg-base: #F7F4F1;
+  --surface: #EFE7E0;
+  --surface-alt: #CCC1BC;
+
+  --text-primary: #4A3D40;
+  --text-secondary: #857A74;
+
+  --accent-primary: #71889F;
+  --accent-primary-hover: #8CA0BC;
+
+  /* Verified Risk Tokens */
+  --risk-low: #8CA0BC;
+  --risk-moderate: #CBAE8C;
+  --risk-high: #9C7568;
+
+  /* Borders & Radii */
+  --border-radius: 10px;
+  --border-subtle: 1px solid var(--surface-alt);
+  --border-focus: 1px solid var(--accent-primary);
+
+  /* 8px Spacing Grid */
+  --space-05: 4px;
+  --space-1: 8px;
+  --space-2: 16px;
+  --space-3: 24px;
+  --space-4: 32px;
+  --space-5: 40px;
+  --space-6: 48px;
+  --space-8: 64px;
+
+  /* Professional Scaled Font Sizes */
+  --text-xs: 0.75rem;   /* 12px */
+  --text-sm: 0.875rem;  /* 14px */
+  --text-base: 1rem;    /* 16px */
+  --text-lg: 1.125rem;  /* 18px */
+  --text-xl: 1.25rem;   /* 20px */
+  --text-2xl: 1.5rem;   /* 24px */
+  --text-3xl: 2.25rem;  /* 36px */
+}
